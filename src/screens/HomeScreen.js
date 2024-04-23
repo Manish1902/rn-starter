@@ -13,22 +13,27 @@ const HomeScreen = ({ navigation }) => {
         title="Go to List Demo" />
 
       <Button
-        onPress={()=> navigation.navigate("Images")}
+        onPress={() => navigation.navigate("Images")}
         title="Go to Images Screen"
       />
-      <Button 
+      <Button
         onPress={() => navigation.navigate('Counter')}
         title="Go to Counter Screen"
       />
 
-      <Button 
-        onPress={()=> {navigation.navigate("Color")}}
+      <Button
+        onPress={() => { navigation.navigate("Color") }}
         title="Go to Color Screen"
       />
 
-      <Button 
-      onPress={()=> {navigation.navigate("Square")}}
-      title="Go to Square Screen"
+      <Button
+        onPress={() => { navigation.navigate("Square") }}
+        title="Go to Square Screen"
+      />
+
+      <Button
+        onPress={() => { navigation.navigate("Text") }}
+        title="Go to Text Screen"
       />
 
       {/* <TouchableOpacity onPress={() => props.navigation.navigate('List')}>
